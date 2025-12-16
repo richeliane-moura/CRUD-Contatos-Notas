@@ -1,0 +1,33 @@
+/* Define o estilo principal da aplicação, limitando a largura e centralizando o conteúdo */
+.App {
+  max-width: 600px;        /* Define a largura máxima da aplicação */
+  margin: 0 auto;          /* Centraliza a aplicação horizontalmente */
+  padding: 20px;           /* Adiciona espaçamento interno */
+  font-family: sans-serif; /* Define a fonte para o corpo da aplicação */
+}
+
+/* Estilo para os campos de input e textarea do formulário */
+.formulario input,
+.formulario textarea {
+  width: 100%;             /* Faz os campos ocuparem toda a largura disponível */
+  margin-bottom: 10px;     /* Adiciona espaçamento entre os campos */
+  padding: 8px;            /* Define o preenchimento interno dos campos */
+}
+
+/* Estilo para o botão do formulário */
+.formulario button {
+  padding: 8px 16px;       /* Adiciona espaçamento interno para o botão */
+}
+
+/* Estilo para as notas exibidas na lista */
+.nota {
+  border: 1px solid #ccc; /* Adiciona uma borda cinza clara em torno da nota */
+  padding: 10px;           /* Define o espaçamento interno das notas */
+  margin-bottom: 10px;     /* Adiciona espaçamento entre as notas */
+}
+
+/* Estilo para os botões de cada nota (editar e excluir) */
+.nota button {
+  margin-right: 5px;       /* Adiciona espaçamento à direita dos botões */
+}
+
